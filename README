@@ -1,0 +1,13 @@
+##Assignment##
+
+#create six vertices star inside any given quadrature#
+
+##Methodology##
+
+1)frist use 50,75,25 off-set value for input coordinates to ensure generated secondary quadrature vertices inside the user input quadrature.By considering secondary quadrature,
+2)Select two edges and divide each of them in to equal three piece by finding two coordinate points on edge.
+3)Then 0ther two edges selected and divide each edge in-to two piece by finding intersecting point coordinates of each line.
+4)Thereafter, i have six different point coordinates inside user given quadrature.
+5)Then using those six points with proper order and "crate_line()" function, draw the six vertices star.
+
+#Now connect six point using straight lines.(In order to make two triangles.)
